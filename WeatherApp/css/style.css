@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+    background-size: cover;
+    background-image: url(../css/wallpaper.png);
+}
+
+.header {
+    color: white;
+    font-family: cursive;
+}
+.form {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+.search-country {
+    height: 35px;
+    width: 500px;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    background-color: white;
+    padding-right: 40px;
+    color:black;
+    margin: 5px;
+}
+/* .fa-magnifying-glass:before, .fa-search:before {
+    position: absolute;
+    right: 328px;
+    top: 27px;
+} */
+.search-button , .reset-button ,.imperial-units  {
+    padding: 15px;
+    font-family: cursive;
+    font-size: 16px;
+}
+.display-info {
+color: white;
+font-family: fantasy;
+font-size: 20px;
+flex-wrap: wrap;
+text-align: center;
+}
+ #card {
+    color: black;     
+}
+@media screen and (max-width: 600px) {
+    #card {
+        height: 310px;
+        width: fit-content;
+    }
+    .display-info {
+        text-align: center;
+    }
+    body {
+        background-size: cover;
+        height: 100vh;
+        max-width: 100%;
+    }
+}
+
+#change {
+    width: 60px;
+    font-family: cursive;
+}
+#city {
+    font-size: 50px;
+} 
+#status {
+    font-size: 45px;
+}
+#city-temp {
+    font-size: 40px;
+}
+#city-wind {
+    font-size: 35px;
+} 
+#humidity {
+    font-size: 30px;
+}
